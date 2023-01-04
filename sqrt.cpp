@@ -19,11 +19,13 @@ int squareRoot(int x)
     }
     return res;
 }
-
+void print(int n){
+    cout<<n;
+}
 
 int main()
 {
     int n = 81;
     int root = squareRoot(n);
-    cout<<root;
+    print(root);
 }
